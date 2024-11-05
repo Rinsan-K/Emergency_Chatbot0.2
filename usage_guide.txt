@@ -1,0 +1,20 @@
+
+# Usage Guide for Emergency Preparedness Chatbot
+
+## Interacting with the Chatbot
+1. **Through Gradio UI**:
+   - Open the Gradio UI and enter your query in the text box.
+   - The chatbot will provide contextually aware responses based on emergency preparedness data.
+
+2. **API Endpoint**:
+   - Send a POST request to `http://127.0.0.1:5000/chat` with the following JSON format:
+     ```json
+     {
+       "query": "What items should I keep in an emergency childbirth kit?"
+     }
+     ```
+   - You will receive a JSON response with the chatbot's reply.
+
+## Example Queries
+- "What supplies do I need for childbirth in an emergency?"
+- "What should I do if I go into labor and cannot reach a hospital?"
